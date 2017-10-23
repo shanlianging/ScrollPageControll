@@ -104,7 +104,10 @@ typedef enum : NSUInteger {
 
 @interface SLScrollViewHorizontalItem : UIView
 
-
+/** 滑动视图 */
+@property (strong, nonatomic) UIScrollView *scrollView;
+/** 页码控制器 */
+@property (strong, nonatomic) UIPageControl *pageControl;
 
 /**
  更新视图

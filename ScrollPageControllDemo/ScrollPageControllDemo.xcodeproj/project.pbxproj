@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7A008C4D1F66D4A300A7B79C /* SLScrollViewOneLineItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A008C4C1F66D4A300A7B79C /* SLScrollViewOneLineItem.m */; };
+		7A008C501F66D62F00A7B79C /* SLOneLineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A008C4F1F66D62F00A7B79C /* SLOneLineViewController.m */; };
+		7A008C531F66D63C00A7B79C /* SLMoreLineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A008C521F66D63C00A7B79C /* SLMoreLineViewController.m */; };
+		7A008C571F66D67E00A7B79C /* SLScrollViewHorizontalItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A008C561F66D67E00A7B79C /* SLScrollViewHorizontalItem.m */; };
 		7A4A73A71F44820400F16956 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A4A73A61F44820400F16956 /* main.m */; };
 		7A4A73AA1F44820400F16956 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A4A73A91F44820400F16956 /* AppDelegate.m */; };
 		7A4A73AD1F44820400F16956 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A4A73AC1F44820400F16956 /* ViewController.m */; };
@@ -15,7 +19,6 @@
 		7A4A73B51F44820400F16956 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A4A73B31F44820400F16956 /* LaunchScreen.storyboard */; };
 		7A4A73C01F44820500F16956 /* ScrollPageControllDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A4A73BF1F44820500F16956 /* ScrollPageControllDemoTests.m */; };
 		7A4A73CB1F44820500F16956 /* ScrollPageControllDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A4A73CA1F44820500F16956 /* ScrollPageControllDemoUITests.m */; };
-		7A4A73DA1F44823500F16956 /* SLScrollViewHorizontalItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A4A73D91F44823500F16956 /* SLScrollViewHorizontalItem.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7A008C4B1F66D4A300A7B79C /* SLScrollViewOneLineItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLScrollViewOneLineItem.h; sourceTree = "<group>"; };
+		7A008C4C1F66D4A300A7B79C /* SLScrollViewOneLineItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLScrollViewOneLineItem.m; sourceTree = "<group>"; };
+		7A008C4E1F66D62F00A7B79C /* SLOneLineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLOneLineViewController.h; sourceTree = "<group>"; };
+		7A008C4F1F66D62F00A7B79C /* SLOneLineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLOneLineViewController.m; sourceTree = "<group>"; };
+		7A008C511F66D63C00A7B79C /* SLMoreLineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLMoreLineViewController.h; sourceTree = "<group>"; };
+		7A008C521F66D63C00A7B79C /* SLMoreLineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLMoreLineViewController.m; sourceTree = "<group>"; };
+		7A008C551F66D67E00A7B79C /* SLScrollViewHorizontalItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLScrollViewHorizontalItem.h; sourceTree = "<group>"; };
+		7A008C561F66D67E00A7B79C /* SLScrollViewHorizontalItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLScrollViewHorizontalItem.m; sourceTree = "<group>"; };
 		7A4A73A21F44820400F16956 /* ScrollPageControllDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScrollPageControllDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A4A73A61F44820400F16956 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7A4A73A81F44820400F16956 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -52,8 +63,6 @@
 		7A4A73C61F44820500F16956 /* ScrollPageControllDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScrollPageControllDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A4A73CA1F44820500F16956 /* ScrollPageControllDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScrollPageControllDemoUITests.m; sourceTree = "<group>"; };
 		7A4A73CC1F44820500F16956 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7A4A73D81F44823500F16956 /* SLScrollViewHorizontalItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLScrollViewHorizontalItem.h; sourceTree = "<group>"; };
-		7A4A73D91F44823500F16956 /* SLScrollViewHorizontalItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLScrollViewHorizontalItem.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +90,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7A008C4A1F66D4A300A7B79C /* SLScrollViewOneLineItem */ = {
+			isa = PBXGroup;
+			children = (
+				7A008C4B1F66D4A300A7B79C /* SLScrollViewOneLineItem.h */,
+				7A008C4C1F66D4A300A7B79C /* SLScrollViewOneLineItem.m */,
+			);
+			path = SLScrollViewOneLineItem;
+			sourceTree = "<group>";
+		};
+		7A008C541F66D67E00A7B79C /* SLScrollViewMoreLineItem */ = {
+			isa = PBXGroup;
+			children = (
+				7A008C551F66D67E00A7B79C /* SLScrollViewHorizontalItem.h */,
+				7A008C561F66D67E00A7B79C /* SLScrollViewHorizontalItem.m */,
+			);
+			path = SLScrollViewMoreLineItem;
+			sourceTree = "<group>";
+		};
 		7A4A73991F44820400F16956 = {
 			isa = PBXGroup;
 			children = (
@@ -104,12 +131,16 @@
 		7A4A73A41F44820400F16956 /* ScrollPageControllDemo */ = {
 			isa = PBXGroup;
 			children = (
+				7A008C541F66D67E00A7B79C /* SLScrollViewMoreLineItem */,
+				7A008C4A1F66D4A300A7B79C /* SLScrollViewOneLineItem */,
 				7A4A73A81F44820400F16956 /* AppDelegate.h */,
 				7A4A73A91F44820400F16956 /* AppDelegate.m */,
 				7A4A73AB1F44820400F16956 /* ViewController.h */,
 				7A4A73AC1F44820400F16956 /* ViewController.m */,
-				7A4A73D81F44823500F16956 /* SLScrollViewHorizontalItem.h */,
-				7A4A73D91F44823500F16956 /* SLScrollViewHorizontalItem.m */,
+				7A008C4E1F66D62F00A7B79C /* SLOneLineViewController.h */,
+				7A008C4F1F66D62F00A7B79C /* SLOneLineViewController.m */,
+				7A008C511F66D63C00A7B79C /* SLMoreLineViewController.h */,
+				7A008C521F66D63C00A7B79C /* SLMoreLineViewController.m */,
 				7A4A73AE1F44820400F16956 /* Main.storyboard */,
 				7A4A73B11F44820400F16956 /* Assets.xcassets */,
 				7A4A73B31F44820400F16956 /* LaunchScreen.storyboard */,
@@ -278,8 +309,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A008C571F66D67E00A7B79C /* SLScrollViewHorizontalItem.m in Sources */,
+				7A008C501F66D62F00A7B79C /* SLOneLineViewController.m in Sources */,
 				7A4A73AD1F44820400F16956 /* ViewController.m in Sources */,
-				7A4A73DA1F44823500F16956 /* SLScrollViewHorizontalItem.m in Sources */,
+				7A008C531F66D63C00A7B79C /* SLMoreLineViewController.m in Sources */,
+				7A008C4D1F66D4A300A7B79C /* SLScrollViewOneLineItem.m in Sources */,
 				7A4A73AA1F44820400F16956 /* AppDelegate.m in Sources */,
 				7A4A73A71F44820400F16956 /* main.m in Sources */,
 			);
@@ -515,6 +549,7 @@
 				7A4A73D11F44820500F16956 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7A4A73D21F44820500F16956 /* Build configuration list for PBXNativeTarget "ScrollPageControllDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +558,7 @@
 				7A4A73D41F44820500F16956 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7A4A73D51F44820500F16956 /* Build configuration list for PBXNativeTarget "ScrollPageControllDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -531,6 +567,7 @@
 				7A4A73D71F44820500F16956 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

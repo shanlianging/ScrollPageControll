@@ -13,10 +13,7 @@
 
 @interface SLScrollViewHorizontalItem ()<UIScrollViewDelegate>
 
-/** 滑动视图 */
-@property (strong, nonatomic) UIScrollView *scrollView;
-/** 页码控制器 */
-@property (strong, nonatomic) UIPageControl *pageControl;
+
 
 /**  */
 @property (weak, nonatomic) id<SLScrollViewHorizontalItemDelegate> delegate;
@@ -226,12 +223,7 @@
     return _scrollView;
 }
 
-- (UIPageControl *)pageControl {
-    if (!_pageControl) {
-        _pageControl = [[UIPageControl alloc] initWithFrame:CGRectMake(0, self.bounds.size.height, self.bounds.size.width, 30)];
-    }
-    return _pageControl;
-}
+
 
 
 #pragma mark -- UIScrollViewDelegate
